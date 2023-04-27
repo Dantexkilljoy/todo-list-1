@@ -1,0 +1,84 @@
+<h1>Your todo list</h1>
+
+<div>
+  <div>
+    <h2>Add a new todo</h2>
+    
+    <form>
+      <div>
+        <label>
+        </label>
+
+        <input>
+      </div>
+
+      <button>
+      Add to Next up
+      </button>
+    </form>
+  </div>
+</div>
+
+<div>
+  <h2>Next Up</h2>
+
+  <ul>
+    <li>
+      <div>task</div>
+
+      <small>
+        created_at in time ago in words
+
+        <a href="/delete_todo/<%=  %>">Delete</a>
+      </small>
+
+      <form>
+      <input type="hidden">
+
+      <button>
+        Move to In Progress
+      </button>
+      </form>
+    </li>
+  </ul>
+</div>
+
+<div>
+  <h2>In Progress</h2>
+
+  <ul>
+    <li>
+      <div>task</div>
+
+      <small>
+        Updated_at in time ago in words
+
+        <a href="/delete_todo/<%=  %>">Delete</a>
+      </small>
+
+      <form>
+      <input type="hidden">
+
+      <button>
+        Move to Done
+      </button>
+      </form>
+    </li>
+  </ul>
+</div>
+
+<div>
+  <h2>Done</h2>
+
+  <ul>
+    <li>
+      <div>task</div>
+
+      <small>
+        Updated_at in time and date with sfrtime
+
+        <a href="/delete_todo/<%=  %>">Delete</a>
+      </small>
+    </li>
+  </ul>
+</div>
